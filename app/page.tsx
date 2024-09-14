@@ -58,7 +58,9 @@ export default function Home() {
                 <div className="flex flex-col sm:flex-row gap-2">
                   <Link
                     className="inline-flex h-10 items-center justify-center rounded-md bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 px-8 text-sm font-medium text-white shadow-sm transition-colors hover:from-pink-500 hover:to-purple-500 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-purple-500 disabled:pointer-events-none disabled:opacity-50"
-                    href="#learn-more"
+                    href="https://zx8ax4uodtb.typeform.com/to/UEao5KLt"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Apply Now!
                   </Link>
@@ -137,7 +139,9 @@ export default function Home() {
               </p>
               <Link
                 className="inline-flex h-10 items-center justify-center rounded-md bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 px-8 text-sm font-medium text-white shadow transition-colors hover:from-pink-500 hover:to-purple-500 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-purple-500 disabled:pointer-events-none disabled:opacity-50"
-                href="#get-started"
+                href="https://zx8ax4uodtb.typeform.com/to/UEao5KLt"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Get Your Visa Photo
               </Link>
