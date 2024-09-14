@@ -5,7 +5,7 @@ import { Camera, Globe, Clock } from "lucide-react";
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-white">
-      <header className="px-4 lg:px-6 h-14 flex items-center">
+      <header className="px-4 lg:px-6 h-14 flex items-center bg-white sticky top-0 bg-gradient-to-r from-purple-300 via-pink-300 to-red-300">
         <Link className="flex items-center justify-center" href="#home">
           <Camera className="h-6 w-6 mr-2 text-black" />
           <span className="font-bold text-black">VisaSnap AI</span>
@@ -14,19 +14,19 @@ export default function Home() {
           {" "}
           {/* Reduced gap for smaller screens */}
           <Link
-            className="text-sm font-medium text-black hover:underline underline-offset-4"
+            className="text-base font-semibold text-white hover:underline underline-offset-4 hover:text-pink-600"
             href="#features"
           >
             Features
           </Link>
           <Link
-            className="text-sm font-medium text-black hover:underline underline-offset-4"
+            className="text-base font-semibold text-white hover:underline underline-offset-4 hover:text-pink-600"
             href="#pricing"
           >
             Pricing
           </Link>
           <Link
-            className="text-sm font-medium text-black hover:underline underline-offset-4"
+            className="text-base font-semibold text-white hover:underline underline-offset-4 hover:text-pink-600"
             href="#contact"
           >
             Contact
@@ -127,7 +127,7 @@ export default function Home() {
               Get perfectly formatted visa photos at the convenience of your
               home for only <span className="font-bold">$2</span> per render!
             </p>
-            <div className="shadow-md rounded-lg p-6 inline-block border border-black bg-white">
+            <div className="shadow-md rounded-lg p-6 inline-block bg-white">
               <h3 className="text-2xl font-semibold mb-2 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">
                 Only $2 per Photo
               </h3>
