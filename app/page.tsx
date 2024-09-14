@@ -156,7 +156,7 @@ export default function Home() {
           </div>
         </section>
       </main>
-      <footer className="flex flex-col sm:flex-row gap-2 sm:gap-4 py-12 w-full items-center px-4 md:px-6 border-t border-black">
+      <footer className="flex flex-col sm:flex-row gap-2 sm:gap-4 py-6 w-full items-center px-4 md:px-6 border-t border-black">
         <p className="text-xs text-black">
           © 2024 VisaSnap AI. All rights reserved.
         </p>
