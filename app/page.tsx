@@ -117,9 +117,9 @@ export default function Home() {
               Affordable Pricing
             </h2>
             <p className="text-black md:text-xl mb-6">
-              No more wasting time and money at the photographer's shop. Get
-              perfectly formatted visa photos at the convenience of your home
-              for only <span className="font-bold">$2</span> per render!
+              No more wasting time and money at the photographer&apos;s shop.
+              Get perfectly formatted visa photos at the convenience of your
+              home for only <span className="font-bold">$2</span> per render!
             </p>
             <div className="shadow-md rounded-lg p-6 inline-block border border-black bg-white">
               <h3 className="text-2xl font-semibold mb-2 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">
